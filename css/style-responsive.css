@@ -1,0 +1,86 @@
+/* Size - 568px */
+@media screen and (max-width: 568px) {}
+@media screen and (min-width: 568px) {}
+/* End | Size - 568px */
+
+
+
+/* ===== */
+
+
+
+/* Size - 768px */
+@media screen and (max-width: 767px) {
+	.NAV {
+		height: 350px;
+	}
+	.NAV .custom-wrapper {
+		position: fixed;
+		background: #fff;
+		width: 100%;
+	}
+	.NAV .bxLogo {
+		display: block;
+	}
+	.NAV .bxBurger {
+		margin-top: 0;
+	}
+	.NAV .pure-menu-list .pure-menu-item a {
+		margin-left: 0;
+	}
+	.NAV .bxTxt {
+		width: auto;
+		margin-top: 150px;
+		padding: 0 20px;
+	}
+	.NAV .bxTxt h1 {
+		margin-bottom: 10px !important;
+
+		font-size: 40px;
+	}
+	.NAV .bxTxt h3 {
+		max-width: 100%;
+
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.NAV .custom-wrapper {
+		overflow: inherit !important;
+	}
+	.NAV .pure-menu-horizontal .pure-menu-heading, .pure-menu-horizontal .pure-menu-item, .pure-menu-horizontal .pure-menu-separator {
+		display: block !important;
+	}
+}
+/* End | Size - 768px */
+
+
+
+/* ===== */
+
+
+
+/* Size - 1024px */
+@media screen and (max-width: 1024px) {}
+@media screen and (min-width: 1024px) {}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+	/*.NAV .bxTxt {
+		padding: 0 50px;
+	}*/
+	.NAV .bxTxt h1 {
+		font-size: 100px;
+	}
+}
+/* End | Size - 1024px */
+
+
+
+/* ===== */
+
+
+
+/* Size - 1280px */
+@media screen and (max-width: 1280px) {}
+@media screen and (min-width: 1280px) {}
+/* End | Size - 1280px */
